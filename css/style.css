@@ -30,6 +30,7 @@ body {
   margin-top: 5px;
   margin-bottom: 5px;
   border-radius: 15px;
+  line-height: 2.0;
 }
 
 .heading {
@@ -46,31 +47,39 @@ body {
 .line {
   display: inline-block;
   font-weight: bold;
-  margin-left: 13px;
-  width: 116px;
+  width: 112px;
   float: left;
-  padding: 0px;
-  border: 0px;
+  margin-left: 13px;
 }
 
 .destination {
   display: inline-block;
   font-weight: bold;
-  width: 116px;
+  width: 112px;
   float: center;
-  padding: 0px;
-  border: 0px;
+  margin-left: 13px;
 }
 
 .frequency {
   display: inline-block;
   font-weight: bold;
-  width: 116px;
+  width: 112px;
   float: right;
+  margin-left: 13px;
 }
 
-ul {
-  list-style-type: none;
-  padding: 0;
+.list1 {
+  display: inline-block;
+  width: 112px;
+  float: left;
   margin-left: 13px;
+  font-size: 12px;
+}
+
+.list2 {
+  display: inline-block;
+  width: 112px;
+  float: center;
+  margin-left: 13px;
+  font-size: 12px;
 }
