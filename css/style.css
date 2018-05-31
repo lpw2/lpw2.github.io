@@ -19,67 +19,127 @@ body {
   margin-left: 13px;
   margin-top: 5px;
   margin-bottom: 5px;
+  padding: 0px;
+  border: 0px;
 }
 
-.searchbar {
+.searchicon {
+  float: left;
+  margin-left: 13px;
+  padding-left: 7px;
+  margin-top: 17px;
+}
+
+.searchbox {
   background-color: #FFFFFF;
   text-indent: 13px;
-  float: center;
   margin-right: 13px;
   margin-left: 13px;
   margin-top: 5px;
   margin-bottom: 5px;
   border-radius: 15px;
   line-height: 2.0;
+  padding: 0px;
+  width: 345px;
+}
+
+.gobutton {
+  background-color: #F2864A;
+  float: right;
+  margin-right: 13px;
+  padding-right: 5px;
+  margin-top: 11px;
+  border-radius: 15px;
+  height: 32px;
+  width: 40px;
+  text-align: right;
+  line-height: 0;
+  color: #FFFFFF;
 }
 
 .heading {
   text-align: center;
   margin-right: 13px;
   margin-left: 13px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
 }
 
-.busdirection {
+.direction {
   font-weight: bold;
   margin-left: 13px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
 }
 
 .line {
   display: inline-block;
   font-weight: bold;
-  width: 112px;
+  width: 70px;
   float: left;
   margin-left: 13px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px;
 }
 
 .destination {
   display: inline-block;
   font-weight: bold;
-  width: 112px;
-  float: center;
+  width: 130px;
   margin-left: 13px;
+  padding: 0px;
 }
 
 .frequency {
   display: inline-block;
   font-weight: bold;
-  width: 112px;
-  float: right;
-  margin-left: 13px;
+  width: 130px;
+  margin-right: 13px;
+  padding: 0px;
+  text-align: right;
 }
 
 .list1 {
   display: inline-block;
-  width: 112px;
+  width: 70px;
+  height: 60px;
   float: left;
   margin-left: 13px;
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 0px;
 }
 
 .list2 {
   display: inline-block;
-  width: 112px;
-  float: center;
+  width: 130px;
+  height: 60px;
   margin-left: 13px;
-  font-size: 12px;
+  font-size: 13px;
+  padding: 0px;
+  margin-top: 0px;
+}
+
+.list3 {
+  background-color: #F2864A;
+  color: #FFFFFF;
+  border-color: FFFFFF;
+  display: inline-block;
+  width: 120px;
+  font-size: 13px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: 0px;
+  margin-right: 13px;
+  float: right;
+  text-align: right;
+}
+
+.menubar {
+  padding-top: 20px;
 }
