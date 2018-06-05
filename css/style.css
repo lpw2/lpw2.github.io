@@ -11,6 +11,7 @@ body {
 .container {
   margin: 0 auto;
   width: 375px;
+  height: 1570px;
   background-color: #c1d9ff;
 }
 
@@ -21,46 +22,54 @@ body {
 
 .searchbox {
   background-color: #FFFFFF;
-  margin-right: 13px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   margin-left: 13px;
+  margin-right: 13px;
   border-radius: 15px;
   color: #5e5d5d;
-  padding: 5px;
   box-shadow: 1.5px 1.5px 1.5px grey;
+}
+
+.CurrentStreet {
+  margin-left: 13px;
+  margin-right: 13px;
+  text-align: center;
+  border-bottom: 1px solid gray;
+  color: #5e5d5d;
 }
 
 .SearchIcon {
   display: inline-block;
-  padding-left: 10px;
+  float: left;
+  padding: 4px;
 }
 
 .SearchInput {
   display: inline-block;
-  padding-left: 20px;
   margin: 0px;
+  width: 250px;
 }
 
 .GoButton {
   display: inline-block;
   background-color: #F2864A;
-  float: right;
-  margin: 0px;
-  width: 35px;
-  padding-left: 4px;
-  border-radius: 10px;
+  border-radius: 15px;
   color: white;
   box-shadow: 1.5px 1.5px 1.5px grey;
-}
-
-.heading {
-  text-align: center;
-  color: #5e5d5d;
+  margin: 0px;
+  padding-right: 5px;
+  padding-left: 5px;
+  float: right;
 }
 
 .direction {
   font-weight: bold;
   margin-left: 13px;
   color: #5e5d5d;
+  padding: 0px;
+  padding: 0px;
+  display: inline-block;
 }
 
 ul {
@@ -69,13 +78,17 @@ ul {
   padding-left: 13px;
   padding-right: 13px;
   font-size: 14px;
+  margin: 0px;
 }
 
 li {
   list-style-type: none;
   width: 100%;
+  border-bottom: 1px solid gray;
   float: left;
 }
+
+li:last-child { border-bottom: none; }
 
 li p {
   float: left;
@@ -104,5 +117,37 @@ li p {
   border-radius: 15px;
 }
 
-.menubar {
+.menutext {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: 60px;
+  font-size: 11px;
+  background-color: #EFEFF0;
+}
+
+.menutext p {
+  width: 33.33%;
+  float: left;
+}
+
+.icons {
+  padding-top: 10px;
+  margin: 0 auto;
+}
+
+.SearchIcon {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.DirectionsIcon {
+  display: block;
+  margin: 0 auto;
+}
+
+.StationsIcon {
+  display: block;
+  margin: 0 auto;
 }
