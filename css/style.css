@@ -11,9 +11,8 @@ body {
 .container {
   margin: 0 auto;
   width: 375px;
-  height: 1415px;
+  display: inline-block;
   background-color: #c1d9ff;
-  box-shadow: 1.5px 1.5px 1.5px grey;
 }
 
 .map {
@@ -61,7 +60,7 @@ body {
   margin-left: 13px;
   margin-right: 13px;
   text-align: center;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #9a9c9e;
   color: #5e5d5d;
 }
 
@@ -86,7 +85,7 @@ ul {
 li {
   list-style-type: none;
   width: 100%;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #9a9c9e;
   float: left;
 }
 
@@ -94,7 +93,7 @@ li:last-child { border-bottom: none; }
 
 li p {
   float: left;
-  padding: 10px;
+  padding: 5px;
   margin: 5px;
 }
 
@@ -127,7 +126,7 @@ li p {
   width: 100%;
   font-size: 10px;
   background-color: #EFEFF0;
-    box-shadow: 1.5px 1.5px 1.5px grey;
+  box-shadow: 1.5px 1.5px 1.5px grey;
 }
 
 .menutext div {
